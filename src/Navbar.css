@@ -1,0 +1,53 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: #120c3a;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 0.5s;
+    z-index: 1000;
+    width: 99vw;
+}
+
+.Navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  .Navbar li {
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s; /* Add a transition effect for color change */
+    position: relative; /* Added for pseudo-element */
+  }
+
+  .Navbar img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .Navbar li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: rgb(232, 253, 252); /* Color of the underline */
+    transition: width 0.3s; 
+  }
+  
+  .Navbar li:hover {
+    color: rgb(216, 249, 250); /* Change color on hover */
+  }
+  
+  .Navbar li:hover::before {
+    width: 100%; /* Expand the underline on hover */
+  }

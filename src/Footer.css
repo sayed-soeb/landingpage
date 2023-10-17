@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #120c3a;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: antiquewhite;
+}
+.footer-img {
+    width: 30%;
+}
+.footer-img2 {
+    width: 30%;
+}
+
+.footer-img  img{
+    max-width: 100%;
+    height: 96%;
+}
+.footer-img2  img{
+    max-width: 100%;
+    height: 96%;
+}
+.text {
+    margin-left: 20px;
+}

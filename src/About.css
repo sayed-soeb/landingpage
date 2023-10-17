@@ -1,0 +1,33 @@
+.about {
+    border: 1px solid pink;
+    background-color: #120c3a;
+    color: antiquewhite;
+    width: 80px;
+    border-radius: 10px;
+    position: relative;
+    right: -45%;
+    top: 10px;
+    padding: auto;
+    height: 30px;
+}
+
+.about h2{
+    text-align: center;
+    position: relative;
+    top: -22px;
+}
+.para {
+    width: 33%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: -33%;
+}
+.para :hover{
+    border: solid 1px blue;
+    border-radius: 10px;
+    transform: scale(1.02);
+    background-color: #120c3a;
+    color: antiquewhite;
+    cursor: pointer;
+}
